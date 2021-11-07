@@ -1,10 +1,36 @@
-// import React from 'react';
-// import Landing from './landing';
+import React, { useState } from 'react';
+import Landing from './landing';
+import About from './about';
+import Projects from './about';
+import Resume from './resume';
+import Contact from './contact';
+import Nav from './nav'
 
-// const Main = () => {
-//     <Switch>
-//         <Route exact path='/' component={Landing} />
-//     </Switch>
-// }
+export default function Main() {
+    const [currentPage, setCurrentPage] = useState('Landing');
 
-// export default Main;
+    const renderPage = () => {
+        if (currentPage === 'Landing') {
+            return <Landing />;
+        }
+        if (currentPage === 'About') {
+            return <About />;
+        }
+        if (currentPage === 'Projects') {
+            return <Projects />;
+        }
+        if (currentPage === 'Resume') {
+            return <Resume />;
+        }
+        return <Contact />;
+    };
+
+    const handlePageChange = (page) => setCurrentPage(page);
+
+    return (
+        <div>
+            <Nav currentPage={currentPage} handlePageChange={handlePageChange} /> 
+            {renderPage()}
+        </div>
+    );
+}
