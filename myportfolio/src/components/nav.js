@@ -7,10 +7,11 @@ return (
     <Layout>
         <Header title="Skylar Harwell's Portfolio" scroll>
             <Navigation>
-                <a href="#home" onClick={() => handlePageChange('Landing')} className={currentPage === 'Landing' ? 'nav-link active' : 'nav-link'}>Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <a href="#home" onClick={() => handlePageChange('Landing')}>Home</a>
+                <a href="#about" onClick={() => handlePageChange('About')}>About</a>
+                <a href="#projects" onClick={() => handlePageChange('Projects')}>Projects</a>
+                <a href="#resume" onClick={() => handlePageChange('Resume')}>Resume</a>
+                <a href="#contact" onClick={() => handlePageChange('Contact')}>Contact</a>
             </Navigation>
         </Header>
         <Drawer title="Title">

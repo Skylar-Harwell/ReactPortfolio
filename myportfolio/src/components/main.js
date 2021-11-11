@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Landing from './landing';
 import About from './about';
-import Projects from './about';
+import Projects from './projects';
 import Resume from './resume';
 import Contact from './contact';
 import Nav from './nav'
@@ -30,6 +30,9 @@ export default function Main() {
     return (
         <div>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange} /> 
+            <br/>
+            <br/>
+            <br/>
             {renderPage()}
         </div>
     );
