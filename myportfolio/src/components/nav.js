@@ -4,7 +4,7 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 function Nav({ currentPage, handlePageChange }) {
 return (
     <div className="demo-big-content">
-    <Layout>
+    <Layout fixedHeader>
         <Header className='header-color' title="Skylar Harwell's Portfolio" scroll>
             <Navigation>
                 <a href="#home" onClick={() => handlePageChange('Landing')}>Home</a>

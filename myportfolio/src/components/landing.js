@@ -18,18 +18,11 @@ export default function Landing() {
                     <div className='banner-text'>
                         <h1>Full Stack Web Developer</h1>
                         <hr/>
-                    <p>JavaScript (AJAX, JSON) | HTML | CSS | SQL | React | jQuery | Bootstrap | Materialize | Node.js (Express.js, Inquirer.js, File System, Sequelize) | Handlebars.js | GraphQL/Apollo Tools | MongoDB | MySQL | Git | GitHub | Command Line | Heroku,  | Jest | VSCode</p>
+                    <p>JavaScript (AJAX, JSON) | HTML | CSS | SQL | React | jQuery | Bootstrap | Materialize | Node.js (Express.js, Inquirer.js, File System, Sequelize) | Handlebars.js | GraphQL/Apollo Tools | MongoDB | MySQL | Git | GitHub | Command Line | Heroku | Jest | VSCode</p>
 
                     <div className='links'>
-
-                    <a href="https://www.linkedin.com/in/skylar-harwell-31aaa0216/" rel="noopener noreferrer" target="_blank">
-                        <i class="fa fa-linkedin" aria-hidden="true" />
-                    </a>
-
-                    <a href="https://github.com/Skylar-Harwell" rel="noopener noreferrer" target="_blank">
-                        <i class="fa fa-github" aria-hidden="true" />
-                    </a>
-
+                        <a href="https://www.linkedin.com/in/skylar-harwell-31aaa0216/"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/Skylar-Harwell"><i class="fa fa-github"></i></a>
                     </div>
                     </div>
                 </Cell>
