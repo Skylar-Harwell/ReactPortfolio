@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer } from 'react-mdl';
 
 function Nav({ currentPage, handlePageChange }) {
 return (
@@ -23,9 +23,6 @@ return (
                 <a href="#contact" onClick={() => handlePageChange('Contact')}>Contact</a>
             </Navigation>
         </Drawer>
-        <Content>
-            <div className="page-content" />
-        </Content>
     </Layout>
 </div>
   );
