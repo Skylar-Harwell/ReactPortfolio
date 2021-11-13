@@ -12,12 +12,16 @@ export default function Resume() {
                     <br/>
                     <br/>
                     <div>
-        
+                    <a href="https://drive.google.com/file/d/1T_109ZCFPTnaM3Ll_eQbuLzugNELLxDx/view?usp=sharing">
                     <img
-                        src='/images/Resume-Updated.pdf'
+                        src='/images/resume1.png'
                         alt='resume'
                         className='resume-img'
                     />
+                    </a>
+                    <div>
+                        <h1 className='resume-banner' style={{color: '#ffffff', borderRadius: '10px', width: '40%', margin: 'auto', marginTop: ''}}>Would you like to know More?</h1>
+                    </div>
                     </div>
                 </Cell>
             </Grid>
