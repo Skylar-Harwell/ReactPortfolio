@@ -1,0 +1,167 @@
+.header-color {
+    background: #20002c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+    background: #20002c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.aboutme {
+    background: #20002c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+.contact {
+    background: #20002c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+.projects {
+    background: #20002c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+.projects-banner {
+    display: flex,
+}
+
+.resume {
+    background: #20002c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+.avatar-img {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.banner-text {
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.banner-text h1 {
+   font-size: 50px;
+   font-weight: bold;
+   color: #ffffff; 
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+}
+
+.banner-text hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+  }
+
+.banner-text p {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-banner {
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.about-banner h1 {
+   font-size: 50px;
+   font-weight: bold;
+   color: #ffffff; 
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+}
+
+.about-banner hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+  }
+
+.about-banner p {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  }
+
+.links i {
+    color: #ffffff;
+    font-size: 5em;
+    padding: 8px;
+}
+
+.resume-banner {
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact-banner {
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
