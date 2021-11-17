@@ -14,7 +14,7 @@ export default function Resume() {
                     <div>
                     <a href="https://drive.google.com/file/d/1T_109ZCFPTnaM3Ll_eQbuLzugNELLxDx/view?usp=sharing">
                     <img
-                        src='/images/resume1.png'
+                        src='images/resume1.png'
                         alt='resume'
                         className='resume-img'
                     />

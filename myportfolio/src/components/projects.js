@@ -16,7 +16,7 @@ export default function Projects() {
                       color: "#000000",
                       height: "176px",
                       background:
-                        "url(/images/gaScreen.png)",
+                        "url(images/gaScreen.png)",
                     }}
                   >
                   </CardTitle>
@@ -104,7 +104,7 @@ export default function Projects() {
                       color: "#fff",
                       height: "176px",
                       background:
-                        "url(/images/employee_tracker_img.png)",
+                        "url(images/employee_tracker_img.png)",
                     }}
                   >
                   </CardTitle>
