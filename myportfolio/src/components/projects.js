@@ -16,7 +16,7 @@ export default function Projects() {
                       color: "#000000",
                       height: "176px",
                       background:
-                        "url(images/gaScreen.png)",
+                        "url(images/gaScreen.png) center",
                     }}
                   >
                   </CardTitle>
